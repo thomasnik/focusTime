@@ -1,0 +1,14 @@
+# Read the Docs configuration file for MkDocs projects
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required
+version: 1
+
+# Set the version of Python and other tools you might need
+build:
+  os: windows 64-bit
+  tools:
+    node: "15.14.0"
+
+mkdocs:
+  configuration: mkdocs.yml
