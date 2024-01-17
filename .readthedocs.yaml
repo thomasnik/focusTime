@@ -6,7 +6,7 @@ version: 2
 
 # Set the version of Python and other tools you might need
 build:
-  os: windows 64-bit
+  os: ubuntu-22.04
   tools:
     node: "15.14.0"
 
